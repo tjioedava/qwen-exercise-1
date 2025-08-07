@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Python logs
+*.log
+
+# Model checkpoints, cache, or large downloaded files
+*.ckpt
+*.pt
+*.bin
+*.pth
+*.msgpack
+.cache/
+.cache-transformers/
+
+# Other common
+*.env
+.env
+*.sqlite3
+
+# Pytest cache
+.pytest_cache/
+
+# pipenv
+Pipfile.lock
