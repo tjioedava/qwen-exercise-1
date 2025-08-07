@@ -57,7 +57,7 @@ To analyze a new flowchart or specification document:
 
 ## Notes
 
-- This project uses the `Qwen/Qwen2.5-VL-3B-Instruct` model from Hugging Face.
+- This project uses the `Qwen/Qwen2.5-VL-3B-Instruct` model from Hugging Face. One can adjust to use `Qwen/Qwen2.5-VL-72B-Instruct` for better performance
 - Output is printed directly to the terminal and written in `result.txt`
 
 ---

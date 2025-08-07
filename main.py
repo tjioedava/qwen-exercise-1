@@ -6,6 +6,7 @@ from qwen_vl_utils import process_vision_info
 
 # Configuration 
 MODEL_NAME = "Qwen/Qwen2.5-VL-3B-Instruct"
+# MODEL_NAME = "Qwen/Qwen2.5-VL-72B-Instruct" # Uncomment this line for better model 
 FLOWCHART_PATH = "flowchart.jpg"
 SPEC_PDF_PATH = "specification.pdf"
 MAX_TOKENS = 1024
@@ -100,7 +101,7 @@ output_texts = processor.batch_decode(
 result = output_texts[0]
 
 # Output result
-print("\n=== Model Response ===\n")
+print("\n=== Model Response ===\n\n")
 print(result)
 
 with open('result.txt', 'w') as file:
